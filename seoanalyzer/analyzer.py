@@ -389,7 +389,7 @@ class Page(object):
             self.warn(u'Missing og:title')
 
         if len(og_description) == 0:
-            self.warn(u'Missing og:descriptoin')
+            self.warn(u'Missing og:description')
 
         if len(og_image) == 0:
             self.warn(u'Missing og:image')
